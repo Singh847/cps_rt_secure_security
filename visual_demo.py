@@ -32,8 +32,8 @@ fail_safe_flags = deque(maxlen=max_points)
 
 plt.ion()
 fig, ax = plt.subplots()
-line_speed, = ax.plot([], [], label="Motor Speed")
-line_setpoint, = ax.plot([], [], label="Setpoint", linestyle='--')
+line_speed, = ax.plot([], [], label="Motor Speed",color='blue')
+line_setpoint, = ax.plot([], [], label="Setpoint",color='green', linestyle='--')
 line_attack, = ax.plot([], [], label="Sensor Reading", linestyle=':')
 fail_safe_patches = []
 
