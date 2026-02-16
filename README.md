@@ -150,13 +150,4 @@ Formal verification of state transitions
 System Architecture
 ![CPS Real-Time Secure System Architecture](<images/architecture.png>)
 
----
 
-## ✅ Now finish the Git fix
-
-After pasting and saving:
-
-```bash
-git add README.md
-git commit -m "Resolve README.md merge conflict"
-git push origin main
